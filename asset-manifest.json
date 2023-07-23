@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa3a818e.css",
-    "main.js": "/static/js/main.c559ccca.js",
-    "index.html": "/index.html",
-    "main.aa3a818e.css.map": "/static/css/main.aa3a818e.css.map",
-    "main.c559ccca.js.map": "/static/js/main.c559ccca.js.map"
+    "main.css": "/arpinar/static/css/main.aa3a818e.css",
+    "main.js": "/arpinar/static/js/main.c559ccca.js",
+    "index.html": "/arpinar/index.html",
+    "main.aa3a818e.css.map": "/arpinar/static/css/main.aa3a818e.css.map",
+    "main.c559ccca.js.map": "/arpinar/static/js/main.c559ccca.js.map"
   },
   "entrypoints": [
     "static/css/main.aa3a818e.css",
