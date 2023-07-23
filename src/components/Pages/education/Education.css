@@ -1,0 +1,31 @@
+#content {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  #content h2 {
+    font-size: 32px;
+    color: #147;
+  }
+  
+  #content h3 {
+    font-size: 24px;
+    color: #147;
+  }
+  
+  #content a {
+    color: #007bff;
+  }
+  
+  #content ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  #content img.left {
+    /* No spacing for the image */
+    float: left;
+    margin: 0;
+  }
+  
