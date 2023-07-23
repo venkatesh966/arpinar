@@ -1,0 +1,47 @@
+#teaching {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  #teaching h2 {
+    font-size: 32px;
+    color: #147;
+  }
+  
+  #teaching h3 {
+    font-size: 24px;
+    color: #147;
+    margin-top: 20px;
+  }
+  
+  #teaching table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  #teaching th {
+    font-size: 16px;
+    color: #147;
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #teaching td {
+    font-size: 16px;
+    color: #333;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #teaching tfoot {
+    font-size: 14px;
+    color: #777;
+  }
+
+  .accomplishments {
+    text-align: left;
+  }
+  
