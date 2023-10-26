@@ -684,7 +684,8 @@ small,.small {
 }
 
 p {
-    margin-bottom: 1.3em
+    margin-bottom: 1.3em;
+    font-size: 22px
 }
 
 u,ins {
@@ -4995,3 +4996,98 @@ body {
 .masthead {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* You can adjust the values as needed */
   }
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+.arxiv {
+    font-size: small;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    text-decoration: none;
+    text-decoration-color: white;
+    border-radius: 2px;
+}
+
+.openreview {
+    font-size: small;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    text-decoration: none;
+    text-decoration-color: white;
+    border-radius: 2px;
+}
+
+.pdf {
+    font-size: small;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    text-decoration: none;
+    text-decoration-color: black;
+    border-radius: 2px;
+}
+
+.link {
+    font-size: small;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    text-decoration: none;
+    text-decoration-color: black;
+    border-radius: 2px;
+}
+
+.journal {
+    font-size: small;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    text-decoration: none;
+    text-decoration-color: white;
+    border-radius: 2px;
+}
+
+.conference {
+    font-size: small;
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    text-decoration: none;
+    text-decoration-color: white;
+    border-radius: 2px;
+}
+
+.workshop {
+    font-size: small;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+    text-decoration: none;
+    text-decoration-color: white;
+    border-radius: 2px;
+}
+
+.bibbutton {
+    font-size: small;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    text-decoration-color: white;
+    border-radius: 2px;
+}
+
+.bibtex {
+    white-space: pre-wrap;
+    font-size: small;
+    font-family: Courier;
+    background: #eeeeee;
+    border: 1px dotted black;
+    width: 75%;
+}
