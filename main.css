@@ -1753,7 +1753,7 @@ tr,td,th {
 
 @media (min-width: 80em) {
     .masthead__inner-wrap {
-        max-width:1280px
+        max-width:1124px
     }
 }
 
@@ -1780,7 +1780,7 @@ tr,td,th {
 
 .site-subtitle {
     display: block;
-    font-size: .625em
+    font-size: 18px;
 }
 
 .masthead__menu {
@@ -1840,7 +1840,7 @@ tr,td,th {
 
 @media (min-width: 80em) {
     .breadcrumbs {
-        max-width:1280px
+        max-width:1124px
     }
 }
 
@@ -2417,7 +2417,7 @@ tr,td,th {
 
 @media (min-width: 80em) {
     .page__footer footer {
-        max-width:1280px
+        max-width:1124px
     }
 }
 
@@ -2515,7 +2515,7 @@ tr,td,th {
 
 @media (min-width: 80em) {
     .search-content__inner-wrap {
-        max-width:1280px
+        max-width:1124px
     }
 }
 
@@ -3398,7 +3398,7 @@ a.reversefootnote:hover {
 
 @media (min-width: 80em) {
     #main {
-        max-width:1280px
+        max-width:1124px
     }
 }
 
@@ -3569,7 +3569,7 @@ body {
 
 @media (min-width: 80em) {
     .page__hero--overlay .wrapper {
-        max-width:1280px
+        max-width:1124px
     }
 }
 
@@ -4442,7 +4442,8 @@ body {
 }
 
 .sidebar {
-    clear: both
+    clear: both;
+    opacity: 1
 }
 
 .sidebar::after {
@@ -4450,12 +4451,17 @@ body {
     content: "";
     display: table
 }
-
+p {
+    font-size: 22px!important;
+}
+li {
+    font-size: 22px;
+}
 @media (min-width: 64em) {
     .sidebar {
         float:left;
         width: calc(200px - 1em);
-        opacity: 0.75;
+        opacity: 1;
         -webkit-transition: opacity 0.2s ease-in-out;
         transition: opacity 0.2s ease-in-out
     }
@@ -4466,7 +4472,8 @@ body {
 
     .sidebar.sticky {
         overflow-y: auto;
-        max-height: calc(100vh - 2em - 2em)
+        border-right: 1px solid lightgray;
+        width: 25%;
     }
 }
 
@@ -4569,7 +4576,7 @@ body {
 
 .author__avatar img {
     max-width: 110px;
-    border-radius: 50%
+    border-radius: 10px;
 }
 
 @media (min-width: 64em) {
@@ -4621,10 +4628,14 @@ body {
     margin: 0
 }
 
+.author__bio p{
+    margin: 0
+}
+
 @media (min-width: 64em) {
     .author__bio {
-        margin-top:10px;
-        margin-bottom: 20px
+        /* margin-top:10px;
+        margin-bottom: 20px */
     }
 }
 
