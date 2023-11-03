@@ -3856,11 +3856,11 @@ body {
 
 .item .details p {
     margin: 0px;
-    font-size: 14px;
+    font-size: 18px!important;
 }
 
 .item a {
-    font-size: 17px;
+    font-size: 22px;
     color: #c90606;
 }
 
@@ -4629,7 +4629,8 @@ li {
 }
 
 .author__bio p{
-    margin: 0
+    margin: 0;
+    font-size: 18px!important;
 }
 
 @media (min-width: 64em) {
